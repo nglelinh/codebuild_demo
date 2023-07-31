@@ -1,5 +1,5 @@
 steps:
-- name: 'ubuntu'
-  args: ['echo', 'hello world, after 600s']
+  - name: 'gcr.io/cloud-builders/curl'
+    args: ['google.com']
 options:
   logging: CLOUD_LOGGING_ONLY
